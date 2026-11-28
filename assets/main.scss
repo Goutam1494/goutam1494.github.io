@@ -115,3 +115,72 @@ body {
     font-size: 29px;
   }
 }
+/* Homepage improvements */
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #eaf4ff, #ffffff);
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 38px;
+  color: #163a70;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 650px;
+  margin: 15px auto;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #2563eb;
+  color: white !important;
+  border-radius: 8px;
+  text-decoration: none !important;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.hero-button:hover {
+  background: #1d4ed8;
+}
+
+.category-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.section-block {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.section-block h2 {
+  color: #163a70;
+  border-bottom: 2px solid #e5eaf1;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    padding: 30px 15px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+}
